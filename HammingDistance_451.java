@@ -3,7 +3,7 @@
 
 
 
-public class Solution {
+class HammingDdistance_451 {
     public int hammingDistance(int x, int y) {
     int dist = 0;
     int val = x ^ y;
