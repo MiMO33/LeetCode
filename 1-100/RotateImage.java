@@ -14,6 +14,7 @@ class RotateImage{
             int leftColY = n - round - 1;
             
             int[] tempArray = new int[n - round * 2 - 1];
+            
             //put the top row into col
             for (int i = 0; i < n - round * 2 - 1; i++) {
                 tempArray[i] = matrix[rightColY + i][rightColX];
